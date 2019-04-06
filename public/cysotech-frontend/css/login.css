@@ -1,0 +1,44 @@
+body {
+    background-image: url(../img/login-background.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+/*    background-blend-mode: darken;*/
+}
+
+/*centers the click to start text*/
+.centered {
+/*  height: 250px;*/
+    width: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    padding: 7px;
+}
+
+/*horizontal line below form heading*/
+hr {
+    width: 100%;
+    background: white;
+}
+
+.button-color {
+    background-color: darkseagreen;
+    color: white;
+}
+
+/*changes border color for input field only for password field*/
+.password-invalid{
+    border-color:red !important;
+}
+
+/*to show invalid feedback only for password field*/
+.invalid {
+/*    visibility: visible !important;*/
+    display: block !important;
+}

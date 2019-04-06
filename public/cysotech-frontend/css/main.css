@@ -1,0 +1,150 @@
+/*removes hover effect from anchor tags*/
+a:hover{
+    text-decoration: none;
+}
+
+/*selects the font awesome i tags*/
+i{
+    color: #0f8be3;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/*selects the font awesome i tag in the nav menu*/
+a i {
+    color: white;
+    font-size: 20px;
+    margin-right: 1px;
+}
+
+/*selects and separate nav links using left margin*/
+nav ul li{
+    margin-left: 20px;
+}
+
+/*using display table to vertically align the element's child element*/
+div#subHeader {
+    display: table;
+    height: 600px;
+    width: 100%;
+}
+
+/*selects the div tag below the showcase/call to action below the header*/
+#small-text {
+    height: 50px;
+    display: table;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+/*this class is placed on any child element to be vertically centered */
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*styling for main features boxes*/
+.features{
+    border: 1px solid lightgray;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+/*sets styling and background image for all projects contact box*/
+#contacts{
+    background: url(../img/perry-grone-732606-unsplash.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+/*sets styling for div containing partner logo*/
+#partners {
+    background: #f8f9fa;
+    height: 100px;
+/*
+    display: table;
+    width: 100%;
+*/
+}
+
+/*sets styling for partners' logos*/
+.partnerImg{
+    height: 51px;
+    width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+/*sets styling for circle showing the platform's features*/
+#feature-circle{
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: url(../img/MeekGratefulAmericanratsnake.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 0.9;
+}
+
+/*for animating the downwards arrow using css animation*/
+@import "compass/css3";
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+/*sets animation for any element with the animate class */
+.animate{
+    animation: fadeIn 1.5s infinite alternate;
+}
+
+/*sets background and styling for code quality features*/
+.greybckground{
+    background: lightgrey;
+    margin-right: 20px;
+    padding-right: 0 !important;
+}
+
+/*sets styling for the top footer section*/
+footer .top-footer {
+    background-color: lightgray;
+    padding: 40px 0 40px 0;
+}
+
+/*sets list style for the ul links in the footer*/
+footer ul li {
+    list-style: url(../img/play3.png);
+}
+
+/*sets styling for the bottom footer section*/
+#bottom-footer {
+    height: 30px;
+}
+
+/*
+.labelBubbleLeft{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+    width: 70px;
+    height: 70px;
+    background: #0f8be3;
+    position: relative;
+}
+
+.labelBubbleLeft:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 10px solid #0f8be3;
+    border-bottom: 13px solid transparent;
+}*/
