@@ -35,6 +35,7 @@ div#subHeader {
     display: table;
     width: 100%;
     background: #f9f9f9;
+    padding: 5px;
 }
 
 /*this class is placed on any child element to be vertically centered */
@@ -62,11 +63,6 @@ div#subHeader {
 /*sets styling for div containing partner logo*/
 #partners {
     background: #f8f9fa;
-    height: 100px;
-/*
-    display: table;
-    width: 100%;
-*/
 }
 
 /*sets styling for partners' logos*/
