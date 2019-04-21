@@ -1,3 +1,7 @@
+html{
+    font-family: sans-serif;
+}
+
 /*removes hover effect from anchor tags*/
 a:hover {
     text-decoration: none;
@@ -144,7 +148,7 @@ section#services {
     margin-bottom: 30px;
 }
 
-/*sets bottom margin for services columns*/
+/*sets bottom margin for individual services columns*/
 .services-col {
     margin-bottom: 30px;
 }
@@ -244,4 +248,51 @@ div.web-dev {
 /*selects the various services link divs with background images*/
 #services a > div:hover {
     opacity: 0.5;
+}
+
+a:enabled{
+    border: black;
+}
+
+/*FOR CONTACT PAGE*/
+
+.contact-featured {
+    background: url(../img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; 
+}
+
+/*sets common styling for section tags in contact page carrying this class*/
+.contact-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+/*sets margin top for contact columns*/
+.contact-columns-mt{
+    margin-top: 30px;
+}
+
+#contact-info{
+   padding: 10px;
+   border-radius:5px; 
+   background-image: linear-gradient(to right, black, skyblue); 
+}
+
+/*sets styling for contact form*/
+.contact-form {
+/*    font-weight: bold;*/
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, black, white);
+}
+
+/*sets styling for contact input field*/
+.contact-input {
+    width: 80%;
+    border-radius: 5px;
 }
