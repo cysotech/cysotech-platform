@@ -256,6 +256,7 @@ a:enabled{
 
 /*FOR CONTACT PAGE*/
 
+/*background image and styling for contact featured image*/
 .contact-featured {
     background: url(../img/contact.jpg);
     background-size: cover;
@@ -295,4 +296,19 @@ a:enabled{
 .contact-input {
     width: 80%;
     border-radius: 5px;
+}
+
+
+/*FOR BLOG PAGE*/
+.blog-body {
+    background-image: linear-gradient(to right, black, skyblue);
+}
+
+/*background image and styling for blog featured image*/
+.blog-featured {
+    background: url(../img/blog2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; 
 }
