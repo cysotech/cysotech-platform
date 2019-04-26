@@ -1,0 +1,314 @@
+html{
+    font-family: sans-serif;
+}
+
+/*removes hover effect from anchor tags*/
+a:hover {
+    text-decoration: none;
+}
+
+/*selects the font awesome i tags*/
+i {
+    color: #0f8be3;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/*selects the font awesome i tag in the nav menu*/
+a i {
+    color: white;
+    font-size: 20px;
+    margin-right: 1px;
+}
+
+/*selects and separate nav links using left margin*/
+nav ul li {
+    margin-left: 20px;
+}
+
+/*using display table to vertically align the element's child element*/
+div#subHeader {
+    display: table;
+    height: 600px;
+    width: 100%;
+}
+
+/*selects the div tag below the showcase/call to action below the header*/
+#small-text {
+    height: 50px;
+    display: table;
+    width: 100%;
+    background: #f9f9f9;
+    padding: 5px;
+}
+
+/*this class is placed on any child element to be vertically centered */
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*styling for main features boxes*/
+.features {
+    border: 1px solid lightgray;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+/*sets styling and background image for all projects contact box*/
+#contacts {
+    background: url(../img/all-contacts.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+/*sets styling for div containing partner logo*/
+#partners {
+    background: #f8f9fa;
+}
+
+/*sets styling for partners' logos*/
+.partnerImg {
+    height: 51px;
+    width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+/*sets styling for circle showing the platform's features*/
+#feature-circle {
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: url(../img/feature-circle.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 0.9;
+}
+
+/*for animating the downwards arrow or any elements using css animation*/
+@import "compass/css3";
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+/*sets animation for any element with the animate class */
+.animate {
+    animation: fadeIn 1.5s infinite alternate;
+}
+
+/*sets background and styling for code quality features*/
+.greybckground {
+    background: lightgrey;
+    margin-right: 20px;
+    padding-right: 0 !important;
+}
+
+/*sets styling for the top footer section*/
+footer .top-footer {
+    background-color: lightgray;
+    padding: 40px 0 40px 0;
+}
+
+/*sets list style for the ul links in the footer*/
+footer ul li {
+    list-style: url(../img/play.png);
+}
+
+/*sets styling for the bottom footer section*/
+#bottom-footer {
+    height: 30px;
+}
+
+/*FOR SERVICES PAGE*/
+
+/*the main featured image at the top of services page*/
+.services-featured {
+    background: url(../img/services-featured.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+section#services {
+    margin-top: 50px;
+}
+
+/*sets bottom margin for services rows*/
+.services-row {
+    margin-bottom: 30px;
+}
+
+/*sets bottom margin for individual services columns*/
+.services-col {
+    margin-bottom: 30px;
+}
+
+/*styling for various marketing links, images and description */
+div.social-media {
+    background: url(../img/social-media.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+div.marketing {
+    background: url(../img/marketing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+div.API {
+    background: url(../img/coding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+div.app {
+    background: url(../img/mobile-app.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+div.wireframing {
+    background: url(../img/wireframe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+div.maintenance {
+    background: url(../img/maintenance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+div.SEO {
+    background: url(../img/SEO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+div.data {
+    background: url(../img/data-mining.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+div.web-dev {
+    background: url(../img/web-dev.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 250px;
+}
+
+/*sets border radius for input field inside site search box*/
+.sitesearch input {
+    border-radius: 5px;
+}
+
+/*sets only grey background*/
+.lightgrey {
+    background: lightgrey;
+}
+
+/*selects the various services link divs with background images*/
+#services a > div:hover {
+    opacity: 0.5;
+}
+
+a:enabled{
+    border: black;
+}
+
+/*FOR CONTACT PAGE*/
+
+/*background image and styling for contact featured image*/
+.contact-featured {
+    background: url(../img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; 
+}
+
+/*sets common styling for section tags in contact page carrying this class*/
+.contact-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+/*sets margin top for contact columns*/
+.contact-columns-mb{
+    margin-bottom: 30px;
+}
+
+#contact-info{
+   padding: 10px;
+   border-radius:5px; 
+   background-image: linear-gradient(to right, black, skyblue); 
+}
+
+/*sets styling for contact form*/
+.contact-form {
+/*    font-weight: bold;*/
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, black, white);
+}
+
+/*sets styling for contact input field*/
+.contact-input {
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+/*FOR BLOG PAGE*/
+.blog-body {
+    background-image: linear-gradient(to right, black, skyblue);
+}
+
+/*background image and styling for blog featured image*/
+.blog-featured {
+    background: url(../img/blog2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; 
+}

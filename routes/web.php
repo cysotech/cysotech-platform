@@ -12,8 +12,24 @@
 */
 
 Route::get('/', function () {
-    return view('index');
-});
+    return view('Front-End.index');
+})->name('index');
+
+Route::get('/services', function () {
+    return view('Front-End.services');
+})->name('services');
+
+Route::get('/blog', function () {
+    return view('Front-End.blog');
+})->name('blog');
+
+Route::get('/contact', function () {
+    return view('Front-End.contact');
+})->name('contact');
+
+// Route::get('/contact', function () {
+//     return view('Front-End.contact');
+// })->name('contact');
 
 Auth::routes();
 
